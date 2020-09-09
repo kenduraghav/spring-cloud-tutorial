@@ -1,0 +1,10 @@
+insert into book(id,title, author) values (nextval('hibernate_sequence'),'Hibernate-Tips', 'Thorben Janssen');
+insert into book(id,title, author) values (nextval('hibernate_sequence'),'Java 8 in Action', 'Mario Fusco');
+insert into book(id,title, author) values (nextval('hibernate_sequence'),'Modern Java in Action', 'Mario Fusco');
+insert into book(id,title, author) values (nextval('hibernate_sequence'),'Refactoring', 'Martin Fowler');
+insert into book(id,title, author) values (nextval('hibernate_sequence'),'Patterns of Enterprise Architecture', 'Martin Fowler');
+insert into book(id,title, author) values (nextval('hibernate_sequence'),'Effective Java', 'Joshua Bloch');
+insert into book(id,title, author) values (nextval('hibernate_sequence'),'Programming Kotlin', 'Venkat Subramaniam');
+insert into book(id,title, author) values (nextval('hibernate_sequence'),'Head First Java', 'Kathy Sierra');
+insert into book(id,title, author) values (nextval('hibernate_sequence'),'Java Performance', 'Scott Oaks');
+insert into book(id,title, author) values (nextval('hibernate_sequence'),'Head First Design Patterns', 'Eric Freeman');
