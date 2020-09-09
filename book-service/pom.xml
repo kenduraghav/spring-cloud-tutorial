@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>sr.demo.microservices</groupId>
-	<artifactId>book-api</artifactId>
+	<artifactId>book-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>book-service</name>
 	<description>Demo project for Spring Boot and Spring Boot cloud</description>
