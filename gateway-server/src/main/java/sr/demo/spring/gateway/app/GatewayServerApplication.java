@@ -1,15 +1,17 @@
-package sr.demo.microservices;
+package sr.demo.spring.gateway.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 @SpringBootApplication
+@EnableZuulProxy
 @EnableEurekaClient
-public class BookApplication {
+public class GatewayServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookApplication.class, args);
+		SpringApplication.run(GatewayServerApplication.class, args);
 	}
 
 }
